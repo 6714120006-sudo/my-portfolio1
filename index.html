@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>
-        <a id="github-login" href="http://localhost:3000/auth/login" style="display:inline-block;padding:8px 12px;background:#24292e;color:#fff;text-decoration:none;border-radius:6px;">Log in with GitHub</a>
-    </p>
-    <p>I am a web developer specializing in modern technologies.</p>
-    
-    <!-- About section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate web developer learning modern technologies.</p>
+  <header class="container">
+    <h1>PORTFOLIO</h1>
+  </header>
+
+  <main class="container">
+    <section id="about" class="about-section">
+      <div class="about-text">
+        <h2>ABOUT ME</h2>
+        <p>I'm a cybersecurity enthusiast.</p>
+        <p><strong>Skills:</strong> Networking, Linux</p>
+      </div>
+      <div class="about-image">
+        <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+      </div>
     </section>
-    
-    <!-- Contact form -->
+
+    <section id="projects">
+      <h2>PROJECTS</h2>
+      <ul>
+        <li>Red Team Lab Simulation</li>
+        <li>Blue Team Lab Simulation</li>
+      </ul>
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+      <h2>CONTACT</h2>
+      <p>Email me at <a href="mailto:6714120006@mut.ac.th">6714120006@mut.ac.th</a></p>
     </section>
+  </main>
+
+  <footer class="container">
+    <p>Tossaporn Mol-on 6714120006</p>
+    <p>&copy; 2025 Cyber Portfolio</p>
+  </footer>
 </body>
 </html>
